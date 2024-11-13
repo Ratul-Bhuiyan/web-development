@@ -1,0 +1,41 @@
+.main_box {
+    background-image : url("photo.jpg");
+    height: 100vh;
+    background-size : cover;
+    display : flex;
+}
+
+div input {
+    opacity : 0;
+}
+.btn_one {
+    position : absolute;
+}
+.sidebar_menu {
+    background-color : rgb(255,255,255,0.1);
+    position : fixed;
+    width : 300px;
+    height: 100vh;
+    box-shadow: 0 0 4px rgb(255,255,255,0.5);
+}
+ * {
+    i {
+        color : white;
+    }
+    margin : 0;
+    padding: 0;
+
+ }
+
+ div .sidebar_menu a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2px;
+    font-size: 20px;
+    font-weight: 500;
+
+ }
+ .logo a {
+    box-shadow: 0 0 2px rgb(255,255,255,0.5);
+    left : 50px;
+ }

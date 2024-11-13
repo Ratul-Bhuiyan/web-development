@@ -1,0 +1,8 @@
+span {
+    display : flex;
+    background-color : lightblue;
+    height : 100px;
+    width : 60%;
+    padding : 20px;
+   flex-wrap: wrap;
+}
